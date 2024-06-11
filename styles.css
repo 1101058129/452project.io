@@ -1,0 +1,373 @@
+Jon Wu Yuhan
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #e6e6e6;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.image {
+    width: 30%;
+    height: auto;
+}
+
+.description {
+    width: 70%;
+    padding-left: 10px;
+}
+
+.description h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.description p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: center; /* Add this line to center the navigation bar */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+header {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.service-blocks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.service-block img {
+    width: 100%;
+    height: auto;
+}
+
+.service-block h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.faqs {
+    margin-top: 40px;
+}
+
+.faqs h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.faqs ul {
+    list-style-type: none;
+}
+
+.faqs li {
+    margin-bottom: 20px;
+}
+
+.faqs input[type="checkbox"] {
+    display: none;
+}
+
+.faqs label {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.faqs .answer {
+    margin-left: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.faqs input[type="checkbox"]:checked + label + .answer {
+    opacity: 1;
+}
+
+
+
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add some basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-catalogue {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    max-width: 200px; /* Adjust this value as required, e.g. 200px */
+}
+
+/* Ensure top and bottom alignment even on small screens */
+@media (max-width: 768px) {
+    .product-catalogue {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 140px);
+}
+
+.profile {
+    width: 50%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.image-container {
+    width: 50%;
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.image-16 {
+    z-index: 1;
+}
+
+.image-17 {
+    z-index: 2;
+}
+
+
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-image {
+    width: 100%;
+    position: relative;
+}
+
+.hero-image img {
+    width: 110%;
+    object-fit: cover;
+}
+
+.hero-content {
+    width: 50%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Carrier section styles */
+.carrier {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.carrier h2 {
+    text-align: center;
+}
+
+.carrier article {
+    width: 50%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.carrier figure {
+    width: 50%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.carrier figure img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Footer styles */
+footer {
+    padding: 20px;
+    text-align: center;
+}
