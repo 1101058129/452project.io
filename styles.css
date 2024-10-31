@@ -1,4 +1,4 @@
-Jon Wu Yuhan
+/* Jon Wu Yuhan */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -370,4 +370,69 @@ nav a {
 footer {
     padding: 20px;
     text-align: center;
+}
+
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.hero-image {
+    text-align: center;
+}
+
+.news {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.news h2 {
+    color: #333;
+}
+
+.news li {
+    margin-bottom: 20px;
+}
+
+.carrier {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }
